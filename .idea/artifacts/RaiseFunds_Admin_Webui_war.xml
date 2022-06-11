@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RaiseFunds-Admin-Webui:war">
+    <output-path>$PROJECT_DIR$/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Webui/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RaiseFunds-Admin-Webui</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RaiseFunds-Admin-Webui-1.0.war">
+      <element id="artifact" artifact-name="RaiseFunds-Admin-Webui:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Component/RaiseFunds-Admin-Component.iml" filepath="$PROJECT_DIR$/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Component/RaiseFunds-Admin-Component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Entity/RaiseFunds-Admin-Entity.iml" filepath="$PROJECT_DIR$/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Entity/RaiseFunds-Admin-Entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Parent.iml" filepath="$PROJECT_DIR$/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RaiseFunds-Admin-Reverse/RaiseFunds-Admin-Reverse.iml" filepath="$PROJECT_DIR$/RaiseFunds-Admin-Reverse/RaiseFunds-Admin-Reverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RaiseFunds-Admin-Util/RaiseFunds-Admin-Util.iml" filepath="$PROJECT_DIR$/RaiseFunds-Admin-Util/RaiseFunds-Admin-Util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Webui/RaiseFunds-Admin-Webui.iml" filepath="$PROJECT_DIR$/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Webui/RaiseFunds-Admin-Webui.iml" />
+    </modules>
+  </component>
+</project>

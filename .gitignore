@@ -1,0 +1,6 @@
+# Project exclude paths
+/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Component/target/
+/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Entity/target/
+/RaiseFunds-Admin-Parent/RaiseFunds-Admin-Webui/target/
+/RaiseFunds-Admin-Reverse/target/
+/RaiseFunds-Admin-Util/target/

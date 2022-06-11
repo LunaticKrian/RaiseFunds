@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RaiseFunds-Admin-Component" />
+        <module name="RaiseFunds-Admin-Reverse" />
+        <module name="RaiseFunds-Admin-Entity" />
+        <module name="RaiseFunds-Admin-Webui" />
+        <module name="RaiseFunds-Admin-Util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RaiseFunds-Admin-Component" target="17" />
+      <module name="RaiseFunds-Admin-Entity" target="17" />
+      <module name="RaiseFunds-Admin-Parent" target="17" />
+      <module name="RaiseFunds-Admin-Reverse" target="17" />
+      <module name="RaiseFunds-Admin-Util" target="17" />
+      <module name="RaiseFunds-Admin-Webui" target="17" />
+      <module name="RaiseFunds-Admin-Webui (1) (org.example)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
