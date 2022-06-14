@@ -2,6 +2,7 @@ package com.krian;
 
 import com.krian.entity.Admin;
 import com.krian.mapper.AdminMapper;
+import com.krian.service.api.AdminService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -17,7 +18,7 @@ import java.sql.SQLException;
 // 指定 Spring 给 Junit 提供的运行器:
 @RunWith(SpringJUnit4ClassRunner.class)
 // 加载 Spring 配置文件的注解:
-@ContextConfiguration(locations = {"classpath:spring-persist-mybatis.xml"})
+@ContextConfiguration(locations = {"classpath:spring-persist-mybatis.xml", "classpath:spring-persist-tx.xml"})
 public class RaiseFundsTest {
 
     @Autowired
@@ -25,6 +26,15 @@ public class RaiseFundsTest {
 
     @Autowired
     private AdminMapper adminMapper;
+
+    @Autowired
+    private AdminService adminService;
+
+    @Test
+    public void testTx(){
+        Admin admin = new Admin(null, "jerry", "123456", "杰瑞", "jerry@qq.com", null);
+        adminService.saveAdmin(admin);
+    }
 
     @Test
     public void testMySqlConnection() throws SQLException {
