@@ -63,7 +63,8 @@
         <!-- DispatcherServlet 映射的 URL 地址 -->
         <!-- 大白话：什么样的访问地址会交给 SpringMVC 来处理 -->
         <!-- 配置方式一：符合 RESTFUL 风格使用“/” -->
-        <!-- <url-pattern>/</url-pattern> -->
+        <!-- url-pattern配置成<url-pattern>/</url-pattern>这样时，会覆盖掉全局web.xml中对于静态资源的处理-->
+        <!-- <url-pattern>/</url-pattern>-->
         <!-- 配置方式二：请求扩展名 -->
         <url-pattern>*.html</url-pattern>
         <!--如果一个AJAX请求拓展名为html，但是实际上服务器返回的是JSON数据，二者就不匹配了，会出现406错误-->

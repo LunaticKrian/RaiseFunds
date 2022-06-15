@@ -17,7 +17,7 @@ public class TestHandler {
     private AdminService adminService;
 
     @RequestMapping(value = "test/index.html", method = RequestMethod.GET)
-    public String testSSM(ModelMap modelMap){
+    public String testSSM(ModelMap modelMap) {
         List<Admin> adminList = adminService.getAll();
         modelMap.addAttribute("adminList", adminList);
         return "target";
